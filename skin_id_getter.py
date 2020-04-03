@@ -70,8 +70,10 @@ with io.open(os.path.join(SteamPath, 'csgo/resource/csgo_english.txt'), 'r', enc
         if line.strip() == '// Paint Kits':
             start = True
 
-with io.open('item_index.txt', 'w', encoding="utf-8") as outfile:
+with io.open('item_index.json', 'w', encoding="utf-8") as outfile:
+    outfile.write("[\n")
     for n in sorted(skindata):
         tag = skindata[n]['description_tag']
 
-        outfile.write("%s: %s\n" % (n, namedata[tag.lower()]))
+        outfile.write("\t{\n\t\t\"id\": %s,\n\t\t\"name\": \"%s\"\n\t},\n" % (n, namedata[tag.lower()]))
+    outfile.write("]")
