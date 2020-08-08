@@ -3252,6 +3252,74 @@
 		"name": "Bullet Queen"
 	},
 	{
+		"id": 958,
+		"name": "Ultralight"
+	},
+	{
+		"id": 959,
+		"name": "Legion of Anubis"
+	},
+	{
+		"id": 960,
+		"name": "Gnarled"
+	},
+	{
+		"id": 961,
+		"name": "Monster Call"
+	},
+	{
+		"id": 962,
+		"name": "Printstream"
+	},
+	{
+		"id": 963,
+		"name": "Vogue"
+	},
+	{
+		"id": 964,
+		"name": "Brother"
+	},
+	{
+		"id": 965,
+		"name": "Allure"
+	},
+	{
+		"id": 966,
+		"name": "Ol' Rusty"
+	},
+	{
+		"id": 967,
+		"name": "Mainframe 001"
+	},
+	{
+		"id": 968,
+		"name": "Cassette"
+	},
+	{
+		"id": 969,
+		"name": "Freight"
+	},
+	{
+		"id": 970,
+		"name": "Entombed"
+	},
+	{
+		"id": 971,
+		"name": "Tooth Fairy"
+	},
+	{
+		"id": 972,
+		"name": "Connexion"
+	},
+	{
+		"id": 973,
+		"name": "Runic"
+	},
+	{
+		"id": 974,
+		"name": "Kitbash"
+	},
+	{
 		"id": 10006,
 		"name": "Charred"
 	},
@@ -3442,5 +3510,5 @@
 	{
 		"id": 10064,
 		"name": "Mogul"
-	}
+	},
 ]
